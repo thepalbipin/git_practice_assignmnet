@@ -1,7 +1,7 @@
 function isprime(num)
 {
     let count=0;
-    for(let i=1; i<num; i++)
+    for(let i = 1; i <= num; i++)
     {
         if(num%i==0)
         {
@@ -18,7 +18,7 @@ function isprime(num)
     }
 }
 
-    for(let i=0; i<=20; i++)
+    for(let i = 1; i <= 20; i++)
     {
         if (isprime(i))
         {
